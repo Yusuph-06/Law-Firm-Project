@@ -73,6 +73,8 @@ h1 {
   height: 50px;
   width: 230px;
   margin-top: 2rem;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
 .sub-img p {
@@ -225,7 +227,7 @@ h1 {
 .main-abt {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 10rem 0;
+  padding: 15rem 0;
   padding-right: 10rem;
   max-width: var(--max-width);
   height: 100%;
@@ -304,6 +306,125 @@ h2 {
 .out-img {
   width: 661px;
   height: 193px;
-  rotate: 25.29deg;
-  margin-left: -5rem;
+  rotate: 33.29deg;
+  margin-left: -7rem;
+  margin-top: -3rem;
 }
+
+/* ////////////////////////////////////// */
+
+.service {
+  background-color: #251c1a;
+  overflow: hidden;
+}
+
+.serv-div {
+  padding-bottom: 4rem;
+}
+
+.serv-p {
+  font-size: 18px;
+  color: #f3eee5;
+  font-family: "inter", serif;
+  font-weight: 400;
+}
+
+.serv-h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 67px;
+  line-height: 88px;
+  color: #f3eee5;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.comp-p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  color: #767269;
+  line-height: 24px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.serv1 {
+  display: flex;
+  padding-top: 6rem;
+  justify-content: space-between;
+  gap: 10rem;
+  padding-bottom: 4rem;
+}
+
+.serv1-img {
+  width: 470px;
+  height: 377px;
+  z-index: 5;
+}
+
+.img3-div {
+  justify-content: right;
+  padding-right: 13rem;
+}
+
+.zig2 {
+  margin-top: -5rem;
+}
+
+.in-serv {
+  line-height: -1px;
+}
+
+.one4 {
+  background-color: #f3eee5;
+  align-items: center;
+  text-align: center;
+  /* width: 360px;
+  height: 272px; */
+  border-radius: 30px;
+  padding: 2rem 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.second-div {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.one4 img {
+  width: 80px;
+  height: 80px;
+}
+
+.min-head {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.min-sub {
+  font-family: "inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #525252;
+}
+
+.third-div {
+  text-align: right;
+  margin-top: -37.5rem;
+}
+
+/* .sketch {
+  width: 672px;
+  height: 433px;
+  margin-top: -10rem;
+  z-index: 5;
+} */
